@@ -1,8 +1,6 @@
 package Characters;
 
 import Items.Armour;
-import Items.EArmourType;
-import Items.EWeaponDamageType;
 import Items.Weapon;
 
 public abstract class Character {
@@ -59,5 +57,14 @@ public abstract class Character {
 
     public void setArmour(Armour armour) {
         this.armour = armour;
+    }
+
+    public int damageDeal(Character enemyCharacter) {
+        if (enemyCharacter.getArmour().getArmourDefense() >= weapon.getWeaponDamage()) {
+            return enemyCharacter.hp -= 1;
+        } else {
+            int damage = weapon.getWeaponDamage() - enemyCharacter.getArmour().getArmourDefense();
+            return enemyCharacter.hp -= damage;
+        }
     }
 }
