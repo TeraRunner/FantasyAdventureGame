@@ -25,9 +25,13 @@ public class Warrior extends Character implements IUseHealingTool {
     }
 
     public int drinkPotion(HealingTool healingTool) {
-        while (this.getHp() < 20 && healingTool.getHealingToolDamage() >= 0) {
-            this.setHp(+ 1);
-            healingTool.setHealingToolDamage(- 1);
+        int lifeIncrement = 0;
+        int healingToolDecrease = 0;
+        while (this.getHp() < 20 && healingTool.getHealingToolDamage() > 0) {
+            lifeIncrement = this.getHp() + 1;
+            this.setHp(lifeIncrement);
+            healingToolDecrease = healingTool.getHealingToolDamage() - 1;
+            healingTool.setHealingToolDamage(healingToolDecrease);
         }
         return this.getHp();
     }

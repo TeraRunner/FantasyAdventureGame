@@ -35,13 +35,13 @@ public class WarriorTest {
     @Test
     public void damageDealTest() {
         assertEquals(15, warrior.damageDeal(goblin));
-        assertEquals(15, goblin.damageDeal(warrior));
-        assertEquals(10, warrior.damageDeal(goblin));
-        assertEquals(5, warrior.damageDeal(goblin));
+        assertEquals(15, goblin.getHp());
     }
 
-    @Test void drinkPotionTest() {
+    @Test
+    public void drinkPotionTest() {
         goblin.damageDeal(warrior);
+        assertEquals(15, warrior.getHp());
         warrior.drinkPotion(potion);
         assertEquals(20, warrior.getHp());
     }

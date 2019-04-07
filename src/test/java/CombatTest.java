@@ -1,12 +1,11 @@
 import Characters.Enemy;
 import Characters.Skills.Skill;
 import Characters.Warrior;
-import Items.Armour;
-import Items.EArmourType;
-import Items.EWeaponDamageType;
-import Items.Weapon;
+import Items.*;
 import org.junit.Before;
 import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
 
 public class CombatTest {
 
@@ -15,6 +14,7 @@ public class CombatTest {
     Armour cloth;
     Armour chainMail;
     Skill doubleEdge;
+    HealingTool potion;
     Warrior player1;
     Enemy goblin;
     Combat combat;
@@ -26,13 +26,17 @@ public class CombatTest {
         cloth = new Armour("Cloth", EArmourType.LIGHT, 0);
         chainMail = new Armour("Chain mail", EArmourType.MEDIUM, 3);
         doubleEdge = new Skill("Double Edge");
+        potion = new HealingTool("Potion", 10);
         player1 = new Warrior("Dir'Galad", 20, 0, sword, chainMail, doubleEdge);
         goblin = new Enemy("Goblin", 5, 1, dagger, cloth);
     }
 
     @Test
     public void combatTest() {
-
+        assertEquals(0, player1.getXp());
+        combat = new Combat(player1, goblin);
+        combat.combat(player1, goblin, potion);
+        assertEquals(1, player1.getXp());
     }
 
 }
