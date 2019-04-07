@@ -2,18 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5eefff72-97b4-46dd-af18-cceae6c39a72" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Combat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Interfaces/IFight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Items/HealingTool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CombatTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HealingToolTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Interfaces/IUseHealingTool.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/Characters/Character.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Characters/Character.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/Characters/Enemy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Characters/Enemy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Interfaces/IFight.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/classes/WarriorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/WarriorTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Characters/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Characters/Character.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Characters/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Characters/Enemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Items/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/Weapon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Characters/Warrior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Characters/Warrior.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/WarriorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WarriorTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -48,13 +44,38 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Character.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Character.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/Characters/Character.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="412">
-                  <caret line="66" column="37" lean-forward="true" selection-start-line="66" selection-start-column="37" selection-end-line="66" selection-end-column="37" />
+                <state relative-caret-position="471">
+                  <caret line="68" column="5" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
                   <folding>
                     <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="IUseHealingTool.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/Interfaces/IUseHealingTool.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="135">
+                  <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Warrior.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/Characters/Warrior.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="258">
+                  <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#364#365#0" expanded="true" />
+                    <element signature="e#392#393#0" expanded="true" />
+                    <element signature="e#433#434#0" expanded="true" />
+                    <element signature="e#467#468#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -76,20 +97,8 @@
           <file leaf-file-name="CombatTest.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/CombatTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="382">
+                <state relative-caret-position="435">
                   <caret line="29" column="58" selection-start-line="29" selection-start-column="58" selection-end-line="29" selection-end-column="58" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="IFight.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/Interfaces/IFight.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="8" selection-start-line="8" selection-end-line="8" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -100,10 +109,29 @@
           <file leaf-file-name="WarriorTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/WarriorTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="487">
-                  <caret line="36" column="11" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+                <state relative-caret-position="583">
+                  <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
                   <folding>
                     <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="HealingTool.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/Items/HealingTool.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="360">
+                  <caret line="24" column="59" lean-forward="true" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
+                  <folding>
+                    <element signature="e#334#335#0" expanded="true" />
+                    <element signature="e#372#373#0" expanded="true" />
+                    <element signature="e#434#435#0" expanded="true" />
+                    <element signature="e#488#489#0" expanded="true" />
+                    <element signature="e#529#530#0" expanded="true" />
+                    <element signature="e#569#570#0" expanded="true" />
+                    <element signature="e#632#633#0" expanded="true" />
+                    <element signature="e#690#691#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -361,10 +389,11 @@
         <option value="$PROJECT_DIR$/src/test/java/CombatTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Combat.java" />
         <option value="$PROJECT_DIR$/src/main/java/Items/Weapon.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Characters/Warrior.java" />
         <option value="$PROJECT_DIR$/src/main/java/Interfaces/IFight.java" />
         <option value="$PROJECT_DIR$/src/main/java/Characters/Enemy.java" />
         <option value="$PROJECT_DIR$/src/main/java/Characters/Character.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Interfaces/IUseHealingTool.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Characters/Warrior.java" />
         <option value="$PROJECT_DIR$/src/test/java/WarriorTest.java" />
       </list>
     </option>
@@ -479,7 +508,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.WarriorTest.damageDealTest">
+  <component name="RunManager" selected="JUnit.WarriorTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -491,23 +520,6 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="ArmourTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.codeclan.example.FantasyAdventureHW.test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ArmourTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -568,6 +580,23 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="WarriorTest.drinkPotion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.codeclan.example.FantasyAdventureHW.test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WarriorTest" />
+      <option name="METHOD_NAME" value="drinkPotion" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -607,19 +636,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.ArmourTest" />
       <item itemvalue="JUnit.WarriorTest" />
       <item itemvalue="JUnit.All in com.codeclan.example.FantasyAdventureHW.test" />
       <item itemvalue="JUnit.HealingToolTest" />
       <item itemvalue="JUnit.WarriorTest.damageDealTest" />
+      <item itemvalue="JUnit.WarriorTest.drinkPotion" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WarriorTest" />
+        <item itemvalue="JUnit.WarriorTest.drinkPotion" />
         <item itemvalue="JUnit.WarriorTest.damageDealTest" />
         <item itemvalue="JUnit.HealingToolTest" />
         <item itemvalue="JUnit.All in com.codeclan.example.FantasyAdventureHW.test" />
-        <item itemvalue="JUnit.WarriorTest" />
-        <item itemvalue="JUnit.ArmourTest" />
       </list>
     </recent_temporary>
   </component>
@@ -637,24 +666,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EnemyTest - 2019.04.06 at 15h 50m 44s.xml">
-      <configuration name="EnemyTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EnemyTest - 2019.04.06 at 16h 00m 28s.xml">
-      <configuration name="EnemyTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WeaponTest - 2019.04.06 at 16h 07m 19s.xml">
-      <configuration name="WeaponTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ArmourTest - 2019.04.06 at 16h 16m 58s.xml">
-      <configuration name="ArmourTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_com_codeclan_example_FantasyAdventureHW_test - 2019.04.06 at 16h 53m 22s.xml">
-      <configuration name="All in com.codeclan.example.FantasyAdventureHW.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HealingToolTest - 2019.04.06 at 17h 41m 22s.xml">
-      <configuration name="HealingToolTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="HealingToolTest - 2019.04.06 at 17h 44m 43s.xml">
       <configuration name="HealingToolTest" configurationId="JUnit" />
     </history-entry>
@@ -666,6 +677,24 @@
     </history-entry>
     <history-entry file="WarriorTest_damageDealTest - 2019.04.06 at 19h 03m 47s.xml">
       <configuration name="WarriorTest.damageDealTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WarriorTest_damageDealTest - 2019.04.06 at 19h 14m 37s.xml">
+      <configuration name="WarriorTest.damageDealTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WarriorTest_damageDealTest - 2019.04.06 at 19h 15m 32s.xml">
+      <configuration name="WarriorTest.damageDealTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WarriorTest_damageDealTest - 2019.04.06 at 19h 16m 21s.xml">
+      <configuration name="WarriorTest.damageDealTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WarriorTest_damageDealTest - 2019.04.06 at 19h 16m 41s.xml">
+      <configuration name="WarriorTest.damageDealTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WarriorTest_damageDealTest - 2019.04.06 at 19h 18m 30s.xml">
+      <configuration name="WarriorTest.damageDealTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WarriorTest_drinkPotion - 2019.04.07 at 15h 24m 58s.xml">
+      <configuration name="WarriorTest.drinkPotion" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -704,6 +733,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/Items/Weapon.java">
@@ -835,23 +869,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Items/HealingTool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
-            <element signature="e#496#497#0" expanded="true" />
-            <element signature="e#537#538#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
-            <element signature="e#640#641#0" expanded="true" />
-            <element signature="e#698#699#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/HealingToolTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -860,16 +877,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#176#177#0" expanded="true" />
             <element signature="e#235#236#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CombatTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="29" column="58" selection-start-line="29" selection-start-column="58" selection-end-line="29" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -905,26 +912,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Interfaces/IFight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Characters/Warrior.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Characters/Enemy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -937,20 +924,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Characters/Character.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Interfaces/IFight.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="66" column="37" lean-forward="true" selection-start-line="66" selection-start-column="37" selection-end-line="66" selection-end-column="37" />
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CombatTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="58" selection-start-line="29" selection-start-column="58" selection-end-line="29" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Characters/Character.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="68" column="5" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Interfaces/IUseHealingTool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Items/HealingTool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="59" lean-forward="true" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
+          <folding>
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#632#633#0" expanded="true" />
+            <element signature="e#690#691#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Characters/Warrior.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/WarriorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="36" column="11" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+        <state relative-caret-position="583">
+          <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

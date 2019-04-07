@@ -67,4 +67,5 @@ public abstract class Character {
             return enemyCharacter.hp -= damage;
         }
     }
+
 }
